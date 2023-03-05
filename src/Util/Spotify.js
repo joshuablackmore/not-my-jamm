@@ -1,4 +1,4 @@
-const redirectURI = 'http://joshua-drumming-playlist.surge.sh';
+const redirectURI = 'https://stunning-tulumba-80c729.netlify.app';
 const clientID = 'd4dc65c352024b1faa11a8796f2f8fd6';
 let expiresIn;
 let accessToken;
