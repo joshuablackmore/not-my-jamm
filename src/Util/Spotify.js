@@ -26,14 +26,7 @@ const Spotify = {
     },
 
     search(term) {
-        this.getAccessToken(); // uses access token to determine if account is eligible for using
-    
-        /*
-            - Fetch a list of tracks from Spotify with the passed search term
-              - access token headers are needed for authorization
-            - Pass page reponse that will return it in json format if the response is okay
-            - Pass the okay response to an anonymous function that maps the jsonResponse to track data
-        */
+        this.getAccessToken(); 
         return fetch(`https://api.spotify.com/v1/search?type=track&q=${term}`, {
           headers: {
             Authorization: `Bearer ${accessToken}`
