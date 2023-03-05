@@ -11,7 +11,10 @@ class App extends React.Component {
     this.state = {
       searchResults: [], 
       playlistName: 'JB Drumming stuff',
-      playlistTracks: [{album: "Teeth For Teeth", artist: "Tiny Beast", id: "5hzCgbWRk1siBQIZxmJjI1", name: "Teeth For Teeth", uri: "spotify:track:5hzCgbWRk1siBQIZxmJjI1"}]
+      playlistTracks: [{album: "Stikki", artist: "Joshua Blackmore", id: "1H2tQv07I3LpFNejUko5Lb", name: "Stikki", uri: "spotify:track:1H2tQv07I3LpFNejUko5Lb"},
+      {album: "Teeth For Teeth", artist: "Tiny Beast", id: "5hzCgbWRk1siBQIZxmJjI1", name: "Teeth For Teeth", uri: "spotify:track:5hzCgbWRk1siBQIZxmJjI1"},
+      {album: "Brokespeak", artist: "Strobes", id: "4FYq2d3CYoMNEomgWujWBM", name: "Winder", uri: "spotify:track:4FYq2d3CYoMNEomgWujWBM"},
+    {album: "Ninja Tune XX (Volume 2)", artist: "Floating Points Ensemble", id: "0UYW6Tgdq1GCCEMOSfzSFK", name: "Post Suite", uri: "spotify:track:0UYW6Tgdq1GCCEMOSfzSFK"}]
     }
     this.addTrack = this.addTrack.bind(this);
     this.removeTrack = this.removeTrack.bind(this);
